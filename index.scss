@@ -1,0 +1,19 @@
+#loadingMask {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  background-color: #0008;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+#output {
+  display: block;
+  font-size: 24px;
+  font-family: monospace;
+  padding: 24px;
+  margin-top: 24px;
+}

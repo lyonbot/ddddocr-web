@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ddddocr-web</title>
+</head>
+<body>
+  <h1>ddddOCR on Browser</h1>
+
+  <div id="loadingMask">
+    Model is loading...
+  </div>
+
+  <div id="fileAccepter">
+    <h2>Input</h2>
+    <input type="file" id="fileInput" accept="image/*" />
+    <p>
+      or you can just Cmd+V to paste a image.\
+      <a href="#" id="loadExample">load example</a>
+    </p>
+
+    <img src="" alt="" id="inputPreview">
+  </div>
+  
+  <input type="text" name="" id="output" spellcheck="false">
+  <script src="./index.ts" type="module"></script>
+</body>
+</html>
